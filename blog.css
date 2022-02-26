@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+.name-logo{
+    color: pink;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 30px 0;
+    font-size: 35px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+    border: solid 7px pink;
+    color: pink;
+    width: 150px;
+    height:35px;
+    margin:20px;
+    text-align: center;
+    padding-top: 17px;
+    font-family: 'Poppins',sans-serif;
+    
+
+}
+.item:hover{
+    background-color: pink;
+    color: black;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: flex;
+    justify-content: center;
+    width: 88vw;
+    margin: 30px 50px 30px 50px;
+    
+    
+}
+.email{
+    color: pink;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.fld{
+    margin: 50px 40px 20px 50px;
+    width: 46vw;
+    
+    background-color: black;
+    border: none;
+    color: pink;
+    font-size: 30px;
+
+}
+.fld:active{
+    border-bottom: solid 3px pink;
+    text-decoration: none;
+    border: none;
+}
+p{
+    color: pink;
+    font-family: 'Poppins',sans-serif;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.chckbox{
+    display: flex;
+    justify-content: center;
+    color: pink;
+    
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px 50px 20px 50px;
+    text-align: center;
+}
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 30px;
+    border: solid 5px pink;
+    color: pink;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Poppins',sans-serif;
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+}
+h2:hover{
+    background-color: pink;
+    color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.icon{
+    margin: 20px;
+    width: 95vw;
+}
+.icon:hover{
+    fill: pink;
+    
+}
+.line{
+    border-bottom: solid 3px pink;
+    padding-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.li-item{
+    color: pink;
+    margin-right: 20px;
+}
